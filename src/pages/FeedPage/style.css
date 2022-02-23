@@ -1,0 +1,71 @@
+
+
+.feed_mainContainer{
+    width: 100vw;
+    min-height: 100vh;
+    height: max-content;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    background-color: rgb(19, 18, 18);
+}
+
+.feed_content {
+    width: 750px;
+    min-height: 650px;
+    height: max-content;
+}
+
+.feed_userPanel {
+    width: 100%;
+    height: 220px;
+}
+
+.PostsPanel {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+.PostsPanel ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PostsPanel li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 98%;
+    margin: 1rem 0;
+    border-radius: 3px;
+    background-color: rgb(145, 139, 139);
+    display: flex;
+    padding: 10px;
+}
+
+.feed_userPostInfo {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.feed_avatarWrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    overflow: hidden;
+    margin-right: .5rem;
+}
+
+.feed_avatarWrapper img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+
